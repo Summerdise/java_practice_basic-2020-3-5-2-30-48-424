@@ -21,6 +21,10 @@ public class Email {
     return emailAddress;
   }
 
+  public String getMasterNumber() {
+    return masterNumber;
+  }
+
   @Override
   public String toString() {
     return "Email{" +

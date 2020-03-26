@@ -19,6 +19,10 @@ public class Telephone {
     this.masterNumber = masterNumber;
   }
 
+  public String getMasterNumber() {
+    return masterNumber;
+  }
+
   public String getCountryCode() {
     return countryCode;
   }

@@ -23,6 +23,10 @@ public class Address {
     this.masterNumber = masterNumber;
   }
 
+  public String getMasterNumber() {
+    return masterNumber;
+  }
+
   public String getCountry() {
     return country;
   }
